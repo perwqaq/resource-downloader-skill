@@ -4,16 +4,10 @@
 
 ## 安装
 
-### 方式一：使用 npx add-skill（推荐）
+### 方式一：使用 npx skills add（推荐）
 
 ```bash
-npx add-skill perwqaq/resource-downloader-skill
-```
-
-或使用 skills-installer：
-
-```bash
-npx skills-installer install perwqaq/resource-downloader-skill --local
+npx skills add perwqaq/resource-downloader-skill
 ```
 
 ### 方式二：直接从 GitHub 克隆
