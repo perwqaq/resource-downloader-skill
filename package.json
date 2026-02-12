@@ -1,0 +1,29 @@
+{
+  "name": "resource-downloader-skill",
+  "version": "1.0.0",
+  "description": "自动从免费资源网站下载图片、音频、视频等资源的 Trae 技能包",
+  "main": "skills/resource-downloader/SKILL.md",
+  "keywords": [
+    "trae",
+    "skill",
+    "resource",
+    "downloader",
+    "images",
+    "audio",
+    "video",
+    "free",
+    "assets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perwqaq/resource-downloader-skill.git"
+  },
+  "files": [
+    "skills/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
