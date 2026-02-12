@@ -7,15 +7,33 @@
 ### 方式一：使用 npx skillsadd（推荐）
 
 ```bash
-npx skillsadd <your-github-username>/resource-downloader-skill
+npx skillsadd perwqaq/resource-downloader-skill
 ```
 
-### 方式二：手动安装
-
-将 `skills/resource-downloader` 目录复制到你的项目 `.trae/skills/` 目录下：
+### 方式二：直接从 GitHub 克隆
 
 ```bash
-# 项目根目录下执行
+# 克隆仓库
+git clone https://github.com/perwqaq/resource-downloader-skill.git
+
+# 复制到你的项目
+cp -r resource-downloader-skill/skills/resource-downloader your-project/.trae/skills/
+```
+
+### 方式三：手动下载
+
+1. 访问 [GitHub 仓库](https://github.com/perwqaq/resource-downloader-skill)
+2. 点击 "Code" -> "Download ZIP"
+3. 解压后将 `skills/resource-downloader` 目录复制到项目的 `.trae/skills/` 目录
+
+```powershell
+# Windows PowerShell
+mkdir -p .trae\skills
+Copy-Item -Recurse skills\resource-downloader .trae\skills\
+```
+
+```bash
+# macOS/Linux
 mkdir -p .trae/skills
 cp -r skills/resource-downloader .trae/skills/
 ```
